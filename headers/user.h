@@ -1,3 +1,5 @@
+#ifndef __USER_H__
+#define __USER_H__
 #include <stdbool.h>//La <stdbool.h> nos sirve para poder usar los tipos de datos booleanos(falso o verdadero). Aunque claro, sabemos que es verdadero que se haya ido con otro :'v
 #include <stdlib.h>//Libreria que contiene la funcion strcmp para cmparar vectores de char, bastante util xD.
 #include <string.h>
@@ -73,3 +75,4 @@ void RegistryMenu()//El menu de registro, agregue la comprobacion de contraseña
 	}
 	
 }
+#endif
